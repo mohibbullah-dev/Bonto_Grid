@@ -1,0 +1,26 @@
+
+
+:root{
+    --purple-100: hsl(254, 88%, 90%);
+    --purple-500: hsl(256, 67%, 59%);
+    --yellow-100: hsl(31, 66%, 93%);
+    --yellow-500: hsl(39, 100%, 71%);
+    --white: hsl(0, 0%, 100%);
+    --black: hsl(0, 0%, 7%);
+    --container_bg:hsla(0, 41%, 97%, 0.541);
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color:var( --container_bg);
+    width: 1440px;
+    height: 100vh;
+    margin: auto;
+}
